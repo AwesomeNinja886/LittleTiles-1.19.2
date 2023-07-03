@@ -8,6 +8,9 @@ plugins {
 
 repositories {
     maven {
+        gradlePluginPortal()
+        maven { url = 'https://maven.minecraftforge.net/' }
+        
         url "https://cursemaven.com"
         content {
             includeGroup "curse.maven"
